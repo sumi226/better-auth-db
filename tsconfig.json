@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*":  ["./src/*"]
     }
   },
   "include": [
@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "src/app/lib/auth-client.js", "src/app/(auth)/sign-up/page.jsx", "src/app/(auth)/sign-in/page.jsx"  ],
   "exclude": ["node_modules"]
 }
